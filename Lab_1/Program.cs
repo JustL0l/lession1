@@ -33,4 +33,3 @@ Console.Write("введите k:");
 double k = double.Parse(Console.ReadLine());
 double U = (Math.Log(Math.Pow(x, 3) + y) - Math.Pow(y, 4)) / (Math.Exp(y) + 5.4 * Math.Pow(k, 3));
 Console.WriteLine($"U={U:F2}");
-
