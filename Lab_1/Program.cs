@@ -24,7 +24,7 @@ Console.WriteLine($"K={K:F2}");
 */
 
 
-//вариант 26
+//вариант 26 
 Console.Write("Введите x:");
 double x = double.Parse(Console.ReadLine());
 Console.Write("Введите y:");
@@ -33,3 +33,5 @@ Console.Write("введите k:");
 double k = double.Parse(Console.ReadLine());
 double U = (Math.Log(Math.Pow(x, 3) + y) - Math.Pow(y, 4)) / (Math.Exp(y) + 5.4 * Math.Pow(k, 3));
 Console.WriteLine($"U={U:F2}");
+
+
