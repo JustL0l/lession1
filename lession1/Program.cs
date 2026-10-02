@@ -75,7 +75,7 @@ catch (Exception ex)
     Console.WriteLine(ex.Message);
 }*/
 
-try
+/*try
 {
     Console.Write("Введите четырёхзначное число: ");
     int n = int.Parse(Console.ReadLine());
@@ -90,13 +90,7 @@ catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
-
-
-
-
-
-
-
+*/
 
 
 //-----2.2----//
